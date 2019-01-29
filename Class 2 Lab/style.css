@@ -1,0 +1,136 @@
+body{
+    margin-left: 3%;
+}
+
+
+.logo p{
+    font: italic small-caps bold 2.3rem cursive;
+    min-width: 220px;
+    clear: right;
+    margin: 0px;
+}
+
+.logo{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.sitenav {
+    float: right;
+
+}
+
+
+.sitenav a {
+    display: inline-block;
+    text-align: center;
+    width: 140px;
+    text-decoration: none;
+    padding: 10px 0px;
+    margin: 10px;
+    border: 2px solid #000;
+    color: #333;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+
+hr {
+    clear: both;
+}
+
+header a:hover {
+    color: #eee;
+    background: rgba(234, 89, 0, 0.9)
+}
+
+
+.checkout {
+    text-align: center;
+    clear: both;
+    font-size: 2.2rem;
+    color: #444;
+}
+
+.cart{
+
+    margin-bottom: 20px;
+}
+
+.cart h3 {
+    font-size: 1.8rem;
+    color: #444;
+}
+
+.cart img{
+    display: inline-block;
+    height: 150px;
+    margin-left: 2%;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.cart img:hover{
+    transform: scale(1.13);
+}
+
+.cart p {
+    display: inline-block;
+    height: 100px;
+    vertical-align: top;
+    padding: 50px 10px 0px 10px;
+    
+}
+
+.login-wpapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.login{
+    width:  30%;
+    color: #444;
+    border: 1px solid #555;
+    padding: 20px 20px 20px 40px;
+}
+
+.nologin{
+    width:  50%;
+    color: #444;
+    border: 1px solid #555;
+    padding: 20px 20px 20px 40px;
+}
+
+.inline {
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
+    min-width: 100px;
+}
+
+.shipping{
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+.submitbutton{
+    color: #000;
+    font-size: 1.2rem;
+    background: #08ad0e;
+    padding: 5px 20px;
+    margin: 20px 10px;
+}
+
+.dangertbutton{
+    color: #000;
+    font-size: 1rem;
+    background: #ddd;
+    padding: 5px 20px;
+    margin: 20px 10px;
+}
+
+.submitbutton:hover, .dangertbutton:hover {
+    
+    box-shadow: 5px 5px 8px #888888;
+}
+
+

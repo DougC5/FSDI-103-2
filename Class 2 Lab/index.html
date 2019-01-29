@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+            <p>Jimmy's Stuff</p>
+        </div>
+
+        <nav class="sitenav">
+
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="mailto:test@gmail.com">Contact Us</a>
+
+        </nav>
+    </header>
+    <hr>
+    <h1 class="checkout">Checkout</h1>
+    <div class="cart">
+        <h3>Cart Details:</h3>
+        <img src="Pics/WingNut.jpeg" alt="">
+        <p> Wingnut used for whatever you need</p>
+
+
+    </div>
+    <div class="login-wpapper">
+        <div class="login">
+            <h3>Customer Login:</h3>
+            <form action="/action_page.php" target="_blank" method="get">
+                <p class="inline">User Name:</p>
+                <input type="text" name="username" value="User Name"><br>
+                <p class="inline">Password:</p>
+                <input type="password" name="psw" value="Last Name Here"><br>
+                <input class="submitbutton" type="submit" value="Submit">
+                <input class="dangertbutton" type="reset" value="Clear">
+
+            </form>
+
+        </div>
+        <div class="nologin">
+            <h3>Proceed without logging in:</h3>
+            <form action="/action_page.php" target="_blank" method="get">
+                <p class="inline">Email:</p>
+                <input type="email" name="email" value="me@gmail.com"><br>
+                <p class="inline">First Name</p>
+                <input type="text" name="fname" value="First Name">
+                <br>
+                <p class="inline shipping">Shipping Type:</p>
+                <div class="inline">
+                   <input type="radio" name="Overnight" value="Over" checked> Overnight
+                    <br>
+                    <input type="radio" name="3day" value="3day"> 3 Day
+                    <br>
+                    <input type="radio" name="ground" value="ground"> Ground
+                </div>
+                <br>
+                <p class="inline">Telephone Number</p>
+                <input type="tel" name="tel" value="555-555-5555">
+                <br>
+
+
+                <input class="submitbutton" type="submit" value="Submit">
+                <input class="dangertbutton" type="reset" value="Clear">
+        </div>
+    </div>
+</body>
+
+</html>
